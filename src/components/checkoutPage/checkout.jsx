@@ -11,7 +11,8 @@ const Checkout = () => {
   };
 
   return (
-    <div className="mt-5">
+    <div className="pt-5 checkout-container">
+      <div className="checkout-style">
       <button
         className=" btn btn-success shop-button"
         onClick={() => navigate("/")}
@@ -25,6 +26,7 @@ const Checkout = () => {
       <button className="btn btn-info" onClick={handlePayment}>
         pay
       </button>
+    </div>
     </div>
   );
 };
